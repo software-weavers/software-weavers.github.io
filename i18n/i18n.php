@@ -54,6 +54,10 @@ class Translator
         $translationArray = [];
 
         foreach ($translations as $translation) {
+            if (empty($translation) || $translation[0] === '#') {
+                continue;
+            }
+            
             [$en, $target] = explode("\t", $translation);
 
             $translationArray[$en] = $target;

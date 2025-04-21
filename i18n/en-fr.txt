@@ -1,6 +1,15 @@
+# Title
 Software Weavers	Tisserands Numériques
-About us	À propos
+
+# Page: Home
 How can we serve you?	Comment pouvons-nous vous aider ?
 Our skills and commitments	Nos compétences et nos engagements
-link:about	a-propos
+
+# Page: About us
+About us	À propos
+
+# Navbar
 About	À propos
+
+# Links
+link:about	a-propos
