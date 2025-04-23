@@ -1,0 +1,51 @@
+section:nth-of-type(2n+1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding: 48px;
+
+    a {
+        margin-top: 24px;
+    }
+}
+
+section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 48px;
+
+    div {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            width: 50%;
+
+            h3, p {
+                text-align: center;
+            }
+        }
+    
+        aside {
+            img {
+                width: 400px;
+            }
+        }
+
+        &:nth-of-type(2n+1) {
+            aside {
+                order: -1;
+            }
+        }
+    }
+}

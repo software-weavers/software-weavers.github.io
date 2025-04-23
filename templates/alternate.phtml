@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Software Weavers</title>
+    <link rel="shortcut icon" href="/resources/favicon.png" type="image/x-icon">
+    <meta name="description" content="At Software Weavers, we specialize in creating thoughtful, handcrafted websites that combine design, functionality, and user experience. We take pride in delivering quality digital solutions, tailored to meet the unique needs of your business.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <script defer src="https://kit.fontawesome.com/3aad7a6632.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/resources/css/reset.css">
+    <link rel="stylesheet" href="/resources/css/alternate.css">
+    <link rel="stylesheet" href="/resources/css/<?= $filename ?>.css">
+</head>
+
+<body>
+    <header>
+        <img src="/resources/logo-name.jpg" alt="Software Weavers' Logo">
+        <nav>
+            <a href="/"><?= i18n('Home') ?></a>
+            <a href="/<?= i18n('our-services') ?>"><?= i18n('Services') ?></a>
+            <!-- <a href="#quality-charter">Quality Charter</a> -->
+            <a href="/<?= i18n('about-us') ?>"><?= i18n('About') ?></a>
+            <a href="/contact-us">Contact</a>
+            <a href="/blog"><?= i18n('Blog') ?></a>
+        </nav>
+    </header>
+    <main>
+        <?= $content ?>
+        <div id="palette">
+            <div style="background-color: #F5F2E9">#F5F2E9</div>
+            <div style="background-color: #59402A">#59402A</div>
+            <div style="background-color: #733729">#733729</div>
+            <div style="background-color: #9e7559">#9e7559</div>
+            <div style="background-color: #807839">#807839</div>
+            <div style="background-color: #5e5c62">#5e5c62</div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="/legal-notice">Legal notice</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+        </nav>
+        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/kerismaker" title="kerismaker"> kerismaker </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
+        <!-- <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
+        <!-- <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
+        <img src="/resources/logo-name.jpg" alt="Software Weavers' Logo">
+
+        <nav>
+            <a href="/cookies-policy">Cookies Policy</a>
+            <a href="/sitemap">Sitemap</a>
+        </nav>
+    </footer>
+</body>
+</html>

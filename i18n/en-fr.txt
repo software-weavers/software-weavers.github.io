@@ -1,5 +1,5 @@
 # Title
-Software Weavers	Tisserands Numériques
+Software Weavers	Tisserands du Net
 
 # Page: Home
 How can we serve you?	Comment pouvons-nous vous aider ?
@@ -12,4 +12,9 @@ About us	À propos
 About	À propos
 
 # Links
-link:about	a-propos
+about-us	a-propos
+our-services	nos-services
+legal-notice	mentions-legales
+privacy-policy	confidentialite
+cookies-policy	cookies
+sitemap	plan

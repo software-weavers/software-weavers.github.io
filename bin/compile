@@ -41,4 +41,10 @@ ob_start();
 include $templatePath;
 $fullPage = ob_get_clean();
 
-file_put_contents("$dirPath/index.html", $fullPage);
+$compiledPath = "$dirPath/index.html";
+
+if ($filename === 'index') {
+    $compiledPath = "site/$dirname/index.html";
+}
+
+file_put_contents($compiledPath, $fullPage);
