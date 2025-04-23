@@ -23,7 +23,7 @@ nav {
     align-items: center;
 }
 
-nav a {
+nav .button {
     color: #F5F2E9;
     font-size: 20px;
     font-weight: 400;
@@ -71,7 +71,7 @@ h4 {
     color: #4c3622;
 }
 
-a {
+.button {
     display: block;
     width: fit-content;
 

@@ -6,4 +6,4 @@ if ! docker image inspect sw-builder > /dev/null 2>&1; then
   docker build -t sw-builder .
 fi
 
-docker run --network="host" -v $(pwd):/app sw-builder "bin/$COMMAND"
+docker run --network="host" --volume="$(pwd):/app" sw-builder "bin/$COMMAND"

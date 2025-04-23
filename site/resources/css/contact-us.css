@@ -1,24 +1,57 @@
-h1 {
-    padding: 48px;
-    text-align: center;
+main {
+    height: 80vh;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
     gap: 20px;
 
     text-align: center;
-    margin-bottom: 48px;
+    margin: 48px 0;
 
-    img {
-        width: 300px;
+    article, aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    a {
-        background: none;
-        border: none;
-        color: #733729;
+    article {
+        h1 {
+            margin: 24px 0;
+        }
+    
+        p {
+            font-size: 32px;
+        }
+    
+        img {
+            width: 300px;
+        }
+    }
+
+    aside {
+        address {
+            font-size: 24px;
+            text-align: left;
+
+            div {
+                margin: 42px 0;
+
+                i {
+                    color: #9e7559;
+                }
+
+                a {
+                    margin-left: 12px;
+                    color: #4c3622;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
     }
 }
