@@ -1,10 +1,10 @@
 #!/bin/sh
 
 COMMAND=${1-"help"}
+shift
 
-# if ! docker image inspect sw-builder > /dev/null 2>&1; then
-  
-# fi
-
+echo '[BUILD]'
 docker build --tag="sw-builder" --progress="quiet" .
-docker run --network="host" --volume="$(pwd):/app" --rm sw-builder "bin/$COMMAND"
+
+echo '[RUN]'
+docker run --network="host" --volume="$(pwd):/app" --rm sw-builder bin/$COMMAND $@

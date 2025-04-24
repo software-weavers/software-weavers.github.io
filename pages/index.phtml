@@ -1,10 +1,8 @@
-<?php $template = 'alternate.phtml' ?>
-
 <section>
     <article>
-        <h1>We weave software that just works.</h1>
-        <p>Custom software built with craftsmanship.</p>
-        <a class="button" href="/contact-us">Get in Touch</a>
+        <h1><?= i18n('We weave software that just works.') ?></h1>
+        <p><?= i18n('Custom software built with craftsmanship.') ?></p>
+        <a class="button" href="<?= i18n('/contact-us') ?>"><?= i18n('Get in Touch') ?></a>
     </article>
     <aside>
         <img src="/resources/hero.png" alt="Hero image">
@@ -15,25 +13,25 @@
 
 <section>
     <article>
-        <h2>Who we are</h2>
-        <p>We're a small team of developers who treat code like craft. Focused on quality, precision, and long-term maintainability.</p>
+        <h2><?= i18n('Who we are') ?></h2>
+        <p><?= i18n('We\'re a small team of developers who treat code like craft. Focused on quality, precision, and long-term maintainability.') ?></p>
         <div>
             <img src="/resources/nicolas-ghibli.png" alt="Nicolas' Picture">
             <h3>Nicolas</h3>
-            <h4>Development & Technical Consultation</h4>
+            <h4><?= i18n('Development & Technical Consulting') ?></h4>
         </div>
         <div>
             <img src="/resources/amandine-ghibli.jpg" alt="Amandine's Picture">
             <h3>Amandine</h3>
-            <h4>Quality Assurance & Customer Relations</h4>
+            <h4><?= i18n('Quality Assurance & Customer Relations') ?></h4>
         </div>
-        <a class="button" href="/about-us">About us</a>
+        <a class="button" href="<?= i18n('/about-us') ?>"><?= i18n('About us') ?></a>
     </article>
 
     <hr>
 
     <aside>
-        <h2>What we offer</h2>
+        <h2><?= i18n('What we offer') ?></h2>
         <div>
             <h3>Custom Software Development</h3>
             <p>Scalable, purpose-built solutions for your business.</p>
@@ -49,6 +47,6 @@
             <p>Connect and automate your workflows through tailored APIs and backend logic.</p>
             <img src="/resources/settings.png" alt="A cog">
         </div>
-        <a class="button" href="/our-services">Our services</a>
+        <a class="button" href="/our-services"><?= i18n('Our services') ?></a>
     </aside>
 </section>

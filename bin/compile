@@ -18,7 +18,7 @@ $template = 'default.phtml';
 /**
  * This allows translating "about" to "a-propos"
  */
-$filename = i18n($filename);
+$localizedFilename = i18n($filename);
 
 $pagePath = "pages/{$page}";
 
@@ -27,9 +27,9 @@ include $pagePath;
 $content = ob_get_clean();
 
 /**
- * $filename and $template can be overriden during `include $pagePath`
+ * $localizedFilename and $template can be overriden during `include $pagePath`
  */
-$dirPath = "site/$dirname/$filename";
+$dirPath = "site/$dirname/$localizedFilename";
 
 if (!is_dir($dirPath) && !mkdir($dirPath, 0777, true)) {
     die("Failed to create directory $dirPath\n");

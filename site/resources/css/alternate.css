@@ -2,6 +2,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    letter-spacing: .3px;
 }
 
 body {
@@ -10,27 +11,51 @@ body {
 }
 
 header, footer {
+    height: 68px;
     background-color: #59402A;
-    padding: 20px;
+    padding: 12px 24px;
 
     display: flex;
     justify-content: space-between;
-}
-
-nav {
-    display: flex;
-    gap: 32px;
     align-items: center;
+
+    img {
+        height: 44px;
+    }
+
+    nav {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+
+        a {
+            color: #F5F2E9;
+            font-size: 22px;
+            font-weight: 300;
+        
+            display: block;
+            width: fit-content;
+        
+            padding: 4px 8px;
+
+            &.selected {
+                font-weight: 500;
+            }
+        }
+    }
 }
 
-nav .button {
-    color: #F5F2E9;
-    font-size: 20px;
-    font-weight: 400;
+footer {
+    img {
+        transform: translateX(-12px);
+    }
+    
+    nav a {
+        font-size: 16px;
+    }
 }
 
 main {
-    display: grid;
     padding: 0 24px;
 }
 
@@ -88,5 +113,35 @@ h4 {
         color: #59402A;
         background-color: #F5F2E9;
         border: 1px solid #59402A;
+    }
+}
+
+@media (max-width: 800px) {
+    header, footer {
+        background-color: #59402A;
+        padding: 8px;
+    
+        display: flex;
+        justify-content: space-between;
+
+        nav {
+            display: none;
+        }
+    }
+
+    footer {
+        justify-content: center;
+
+        img {
+            transform: none;
+        }
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
     }
 }

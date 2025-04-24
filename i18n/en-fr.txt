@@ -1,20 +1,102 @@
 # Title
 Software Weavers	Tisserands du Net
 
-# Page: Home
-How can we serve you?	Comment pouvons-nous vous aider ?
-Our skills and commitments	Nos compétences et nos engagements
-
-# Page: About us
-About us	À propos
-
-# Navbar
+##########
+# Navbar #
+##########
 About	À propos
 
-# Links
-about-us	a-propos
+#########
+# Links #
+#########
+/our-services	/nos-services
+/about-us	/a-propos
+/contact-us	/nous-contacter
+/legal-notice	/mentions-legales
+/privacy-policy	/confidentialite
+/cookies-policy	/cookies
+/sitemap	/plan
+
+#########
+# Pages #
+#########
 our-services	nos-services
+about-us	a-propos
+contact-us	nous-contacter
 legal-notice	mentions-legales
 privacy-policy	confidentialite
 cookies-policy	cookies
 sitemap	plan
+
+
+###############
+# Page: Index #
+###############
+We weave software that just works.	Nous fabriquons des logiciels qui fonctionnent, tout simplement.
+Custom software built with craftsmanship.	Des logiciels sur mesure, conçus avec savoir-faire.
+
+Who we are	Qui nous sommes
+We're a small team of developers who treat code like craft. Focused on quality, precision, and long-term maintainability.	Nous sommes une petite équipe de développeurs qui considèrent le code comme un artisanat. Axés sur la qualité, la précision et la pérennité.
+
+What we offer	Notre offre
+
+About us	À propos
+Our services	Nos services
+
+
+######################
+# Page: Our services #
+######################
+Services	Services
+Solutions tailored to your needs.	Des solutions adaptées à vos besoins.
+Our prices are indicative and may be adjusted based on the nature of your request.	Nos tarifs sont indicatifs et peuvent être ajustés en fonction de la nature de votre demande.
+
+Template-based website - 1000€	Site web réalisé à l’aide d’un gabarit
+This type of website is based on the use of a pre-designed template, allowing for quick and efficient creation. Platforms like WordPress (with themes such as Astra or Divi), Wix, Squarespace, Webflow, or Shopify (for e-commerce sites) offer a wide range of professional templates suited to various industries. These templates provide a visual and functional structure that can be customised — colours, fonts, images, text — to reflect your brand identity. This approach is ideal for projects that require a fast rollout or have a limited budget, while still ensuring a modern and responsive result.	Ce type de site internet repose sur l’utilisation d’un gabarit préconçu, permettant une création rapide et efficace. Des plateformes comme WordPress (avec des thèmes comme Astra ou Divi), Wix, Squarespace, Webflow ou encore Shopify (pour les sites e-commerce) offrent une large gamme de templates professionnels, adaptés à divers secteurs d’activité. Ces gabarits fournissent une structure visuelle et fonctionnelle que l’on peut personnaliser — couleurs, polices, images, textes — pour refléter l’identité de votre marque. Cette approche est idéale pour les projets nécessitant un déploiement rapide ou disposant d’un budget maîtrisé, tout en garantissant un rendu moderne et responsive.
+
+Support in implementing software solutions - 1000€	Accompagnement dans la mise en place de solutions logicielles
+We support you in selecting and implementing software solutions tailored to your business. Whether it's for managing clients, inventory, invoicing, or communication, we help you find tools that are simple, effective, and sustainable. The goal: save you time every day with reliable, well-configured, and easy-to-use solutions. Each project is handled with care and a focus on quality, so that the software truly serves your work — not the other way around.	Nous vous accompagnons dans le choix et la mise en place de solutions logicielles adaptées à votre activité. Que ce soit pour la gestion de vos clients, de vos stocks, de votre facturation ou de votre communication, nous vous aidons à trouver des outils simples, efficaces et durables. L’objectif : vous faire gagner du temps au quotidien avec des solutions fiables, bien configurées, et faciles à utiliser. Chaque projet est mené avec soin, dans une logique de qualité, pour que le logiciel serve vraiment votre métier — pas l’inverse.
+
+Implementation of software solutions - 2000€	Mise en place de solutions logicielles
+We handle the entire setup of your software solutions from A to Z. This includes installation, configuration, hosting, user account creation, security, and training if needed. The goal is simple: let you use your tools quickly without worrying about the technical side. Whether it's a management tool, a collaborative suite, or industry-specific software, we make sure everything works perfectly from the start. A turnkey solution that's reliable and tailored to your business.	Nous prenons en charge l’ensemble de la mise en place de vos solutions logicielles, de A à Z. Cela inclut l’installation, la configuration, l’hébergement, la création des comptes utilisateurs, la sécurisation et, si besoin, la formation. L’objectif est simple : que vous puissiez utiliser vos outils rapidement, sans vous soucier de la technique. Que ce soit pour un outil de gestion, une suite collaborative ou un logiciel métier, nous veillons à ce que tout fonctionne parfaitement, dès le départ. Une solution clé en main, fiable et adaptée à votre entreprise.
+
+Custom website or software - On quotation	Site internet ou logiciel personnalisé - Sur devis
+Need a website or software tailored to your business? We design fully custom solutions, built to match your needs and goals exactly. From design to functionality, every part is made to measure — no imposed templates, no technical limits. Whether it's a showcase site, an online platform, or a business tool, we deliver a unique, reliable, and scalable solution that highlights your company and makes your daily work easier.	Vous avez besoin d’un site internet ou d’un logiciel parfaitement adapté à votre activité ? Nous concevons des solutions entièrement personnalisées, pensées pour répondre précisément à vos besoins et à vos objectifs. Du design à la fonctionnalité, chaque élément est développé sur mesure : pas de modèle imposé, pas de limite technique. Que ce soit pour un site vitrine, une plateforme en ligne ou un outil métier, nous créons une solution unique, fiable et évolutive, qui valorise votre entreprise et vous simplifie le quotidien.
+
+Maintenance - From 200€/month	Infogérance et maintenance
+We manage your IT or web environment. This includes monitoring, updates, backups, security, and responsive support when issues arise. You get a system that's always up to date, efficient, and secure — without having to handle it yourself. A real time-saver that lets you focus on your business.	Nous assurons la gestion de votre environnement informatique ou web. Cela comprend la surveillance, les mises à jour, les sauvegardes, la sécurité, ainsi qu’un support réactif en cas de problème. Vous bénéficiez d’un système toujours à jour, performant et sécurisé, sans avoir à vous en occuper. Un vrai gain de temps et de tranquillité pour vous concentrer sur votre métier.
+
+Not sure what you need?	Vous n'êtes pas sûr?
+Let's talk it through. We'll help you figure out the right approach.	Parlons-en. Nous vous aiderons à trouver la bonne approche.
+Get in Touch	Nous contacter
+
+
+##################
+# Page: About us #
+##################
+About us	À propos
+Our values	Nos valeurs
+Development & Technical Consulting	Développement
+Quality Assurance & Customer Relations	Assurance Qualité
+You want to work with us?	Vous souhaitez travailler avec nous?
+Check out our services:	Découvrez nos services:
+Our Services	Nos services
+
+We take pride in our expertise. Beyond the technical execution of your project, we put real care into our work to deliver high-quality digital products with flawless finishes.	Nous tirons fierté du savoir-faire français. Au-delà de la réalisation technique de votre projet, nous mettons du cœur à l'ouvrage afin de vous offrir des produits digitalisés d'une grande qualité, aux finitions parfaites.
+
+Just as crafting a fine piece of furniture requires a cabinetmaker's deep technical skill, sharp eye for beauty, and patient precision, developing an application demands accuracy and attention to detail. We are proud artisans of the modern age.	De la même façon que la réalisation d'un beau meuble requiert de l'ébéniste un savoir-faire technique approfondi, un sens aiguisé du beau, et une patience minutieuse, le développement d'une application s'exécute avec précision et sens du détail. Nous sommes de fiers artisans d'aujourd'hui.
+
+I spent several years working in very “corporate” companies. It wasn't the size of the business that bothered me, but the atmosphere that came with it — a lot of façade, role-playing, not much authenticity. That kind of environment gradually distanced me from what made me love this job. Today, I prefer working with people who know their craft, speak plainly, and don't need fifteen meetings to make a decision. Craftspeople, freelancers, small businesses — that's where I belong: with hands-on professionals you can build solid things with, no nonsense.	J'ai bossé plusieurs années dans des boîtes au fonctionnement très “corporate”, souvent américaines, et ce n'est pas tant la taille des entreprises qui me pesait, mais l'ambiance qui allait avec : beaucoup de façade, de jeux de rôle, peu d'authenticité. Ce genre d'environnement m'a peu à peu coupé de ce qui me faisait aimer ce métier. Aujourd'hui, je préfère travailler avec des gens qui savent faire, qui parlent vrai, et qui n'ont pas besoin de quinze réunions pour prendre une décision. Les artisans, les indépendants, les PME — c'est là que je me sens à ma place : avec des pros qui bossent concrètement et avec qui on peut construire des choses solides, sans détour.
+
+I'm the type who notices the small things others miss — what's off or what's lacking — not out of habit, but because it matters to me. Whether it's a line of code or a conversation with a client, I believe the details make the difference. I've nurtured this attention over time, probably fed by my passion for the arts: watercolour, bookmaking, saxophone, theatre… crafts where you can't fake it and every move counts. Today, I bring that same level of care to the quality of our work and our client relationships. So things are done right — and experienced right.	Je suis du genre à remarquer les petits trucs que d'autres ne voient pas, à repérer ce qui cloche ou ce qui manque — pas par manie, mais parce que j'y tiens. Que ce soit dans une ligne de code ou dans un échange avec un client, pour moi, les détails font la différence. Cette attention, je la cultive depuis longtemps, sans doute nourrie par ma passion pour les arts : aquarelle, création de livres, saxophone, théâtre… Des pratiques où on ne peut pas tricher, où chaque geste compte. Aujourd'hui, je mets cette exigence au service de la qualité de nos livrables, et du lien avec nos clients. Pour que les choses soient bien faites, et bien vécues.
+
+
+####################
+# Page: Contact us #
+####################
+Contact us	Contactez-nous
+We'd love to hear from you!	Nous avons hâte d'échanger avec vous !
+Contact Information	Informations de contact
+weavers.software@gmail.com	contact@tisserands-du-net.fr
++359878331171	+33623309121
++359 87 947 3758	+33 6 23 30 91 21
