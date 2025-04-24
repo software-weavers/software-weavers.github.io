@@ -2,4 +2,4 @@
 
 require_once './i18n/i18n.php';
 
-define('LANG', Language::from(getenv('LANG') ?: 'en'));
+define('LANG', Language::from(getenv('APP_LANG') ?: 'en'));
