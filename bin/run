@@ -1,7 +1,23 @@
 #!/bin/sh
 
+HOST=${1-'localhost'}
+PORT=${2-'31570'}
+
+LOG_FILE=/tmp/$HOST-$PORT.log
+
 bin/build
-cd site && php -S 0.0.0.0:31570 2>&1 | egrep -v '(Closing|Accepted)' &
+(cd site && php -S $HOST:$PORT > $LOG_FILE 2>&1) &
+PHP_PID=$!
+
+echo "[Listening] http://$HOST:$PORT"
 
 sleep 1
-bin/watch
+tail -n0 -F $LOG_FILE | grep --line-buffered -vE '(Closing|Accepted)' &
+TAIL_PID=$!
+
+sleep 1
+bin/watch &
+WATCH_PID=$!
+
+trap 'kill $PHP_PID $TAIL_PID $WATCH_PID; wait $PHP_PID $TAIL_PID $WATCH_PID' INT TERM
+wait

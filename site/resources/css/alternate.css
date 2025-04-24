@@ -38,7 +38,7 @@ main {
     position: fixed;
     right: 0;
     bottom: 0;
-    display: flex;
+    display: none; /* flex; */
 
     height: 10px;
     &:hover {

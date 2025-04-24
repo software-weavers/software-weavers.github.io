@@ -2,8 +2,9 @@
 
 COMMAND=${1-"help"}
 
-if ! docker image inspect sw-builder > /dev/null 2>&1; then
-  docker build -t sw-builder .
-fi
+# if ! docker image inspect sw-builder > /dev/null 2>&1; then
+  
+# fi
 
-docker run --network="host" --volume="$(pwd):/app" sw-builder "bin/$COMMAND"
+docker build --tag="sw-builder" --progress="quiet" .
+docker run --network="host" --volume="$(pwd):/app" --rm sw-builder "bin/$COMMAND"
