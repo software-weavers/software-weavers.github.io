@@ -14,10 +14,20 @@ section:nth-of-type(1), section:nth-of-type(3) {
 section:nth-of-type(2) {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     margin-bottom: 48px;
+    gap: 40px;
+
+    div:nth-of-type(2n+1) {
+        background-color: #59402A;
+        color: #F5F2E9;
+    }
 
     div {
+        width: 80%;
+        padding: 24px 12px;
+        
         display: flex;
         justify-content: center;
         gap: 80px;

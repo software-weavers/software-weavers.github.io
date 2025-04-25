@@ -5,6 +5,11 @@ Software Weavers	Tisserands du Net
 # Navbar #
 ##########
 About	À propos
+Legal Notice	Mentions Légales
+Privacy Policy	Politique de Confidentialité
+Cookies Policy	Politique de Cookies
+Sitemap	Plan du Site
+
 
 #########
 # Links #
@@ -12,21 +17,10 @@ About	À propos
 /our-services	/nos-services
 /about-us	/a-propos
 /contact-us	/nous-contacter
-/legal-notice	/mentions-legales
-/privacy-policy	/confidentialite
-/cookies-policy	/cookies
+/legal/notice	/legal/mentions-legales
+/legal/privacy	/legal/confidentialite
+/legal/cookies	/legal/cookies
 /sitemap	/plan
-
-#########
-# Pages #
-#########
-our-services	nos-services
-about-us	a-propos
-contact-us	nous-contacter
-legal-notice	mentions-legales
-privacy-policy	confidentialite
-cookies-policy	cookies
-sitemap	plan
 
 
 ###############

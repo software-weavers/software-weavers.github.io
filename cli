@@ -4,7 +4,17 @@ COMMAND=${1-"help"}
 shift
 
 echo '[BUILD]'
-docker build --tag="sw-builder" --progress="quiet" .
+docker build \
+    --tag="sw-builder" \
+    --progress="quiet" \
+    --build-arg HOST_UID=$(id -u) \
+    --build-arg HOST_GID=$(id -g) \
+    .
 
 echo '[RUN]'
-docker run --network="host" --volume="$(pwd):/app" --rm sw-builder bin/$COMMAND $@
+docker run \
+    --network="host" \
+    --volume="$(pwd):/app" \
+    --rm \
+    sw-builder \
+    bin/$COMMAND $@

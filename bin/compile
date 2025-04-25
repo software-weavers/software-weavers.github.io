@@ -10,41 +10,48 @@ require_once __DIR__.'/../config.php';
 $page = $argv[1];
 $template = 'default.phtml';
 
+$pagePath = "pages/{$page}";
+
+/**
+ * $filename can be used or overriden in `include $pagePath`
+ */
 [
     'dirname' => $dirname,
     'filename' => $filename,
 ] = pathinfo($page);
 
-/**
- * This allows translating "about" to "a-propos"
- */
-$localizedFilename = i18n($filename);
+$filepath = $filename;
 
-$pagePath = "pages/{$page}";
+if ($dirname !== '.') {
+    $filepath = "$dirname/$filename";
+}
 
 ob_start();
 include $pagePath;
 $content = ob_get_clean();
 
 /**
- * $localizedFilename and $template can be overriden during `include $pagePath`
+ * $template can be overriden during `include $pagePath`
  */
-$dirPath = "site/$dirname/$localizedFilename";
-
-if (!is_dir($dirPath) && !mkdir($dirPath, 0777, true)) {
-    die("Failed to create directory $dirPath\n");
-}
-
 $templatePath = "templates/{$template}";
 
 ob_start();
 include $templatePath;
 $fullPage = ob_get_clean();
 
+/**
+ * This allows translating "about" to "a-propos"
+ */
+$dirPath = 'site' . i18n($dirname === '.' ? "/$filename" : "/$dirname/$filename");
+
+if (!is_dir($dirPath) && !mkdir($dirPath, 0777, true)) {
+    die("Failed to create directory $dirPath\n");
+}
+
 $compiledPath = "$dirPath/index.html";
 
 if ($filename === 'index') {
-    $compiledPath = "site/$dirname/index.html";
+    $compiledPath = "site/index.html";
 }
 
 file_put_contents($compiledPath, $fullPage);

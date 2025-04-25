@@ -18,7 +18,7 @@
     <script defer src="https://kit.fontawesome.com/3aad7a6632.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/resources/css/reset.css">
-    <link rel="stylesheet" href="/resources/css/alternate.css">
+    <link rel="stylesheet" href="/resources/css/default.css">
     <link rel="stylesheet" href="/resources/css/<?= $filename ?>.css">
 </head>
 
@@ -28,10 +28,10 @@
             <img src="/resources/logo-name.jpg" alt="Software Weavers' Logo">
         </a>
         <nav>
-            <?= nav_link('/', 'Home', $filename === 'index' ? '/' : $filename) ?>
-            <?= nav_link('/our-services', 'Services', "/$filename") ?>
-            <?= nav_link('/about-us', 'About', "/$filename") ?>
-            <?= nav_link('/contact-us', 'Contact', "/$filename") ?>
+            <?= nav_link('/', 'Home', $filename === 'index' ? '/' : $filepath) ?>
+            <?= nav_link('/our-services', 'Services', "/$filepath") ?>
+            <?= nav_link('/about-us', 'About', "/$filepath") ?>
+            <?= nav_link('/contact-us', 'Contact', "/$filepath") ?>
 
             <!-- <a href="/quality-charter">Quality Charter</a> -->
             <!-- <a href="/blog">Blog</a> -->
@@ -50,22 +50,18 @@
     </main>
     <footer>
         <nav>
-            <?= nav_link('/legal-notice', 'Legal notice', "/$filename") ?>
-            <?= nav_link('/privacy-policy', 'Privacy Policy', "/$filename") ?>
+            <?= nav_link('/legal/notice', 'Legal Notice') ?>
+            <?= nav_link('/legal/privacy', 'Privacy Policy') ?>
         </nav>
 
         <a href="/">
             <img src="/resources/logo-name.jpg" alt="Software Weavers' Logo">
         </a>
 
-        <nav>
-            <?= nav_link('/cookies-policy', 'Cookies Policy', "/$filename") ?>
-            <?= nav_link('/sitemap', 'Sitemap', "/$filename") ?>
-        </nav>
-
         <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/kerismaker" title="kerismaker"> kerismaker </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
         <!-- <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
         <!-- <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
+        <!-- <a href="https://www.flaticon.com/free-icons/strategy" title="strategy icons">Strategy icons created by DinosoftLabs - Flaticon</a> -->
     </footer>
 </body>
 </html>
