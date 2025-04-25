@@ -94,7 +94,7 @@ section:nth-of-type(2) {
                 "image title"
                 "image subtitle";
             grid-template-columns: 64px 1fr;
-            gap: 0 16px;
+            gap: 0 24px;
             align-items: center;
             margin: 18px 0;
 

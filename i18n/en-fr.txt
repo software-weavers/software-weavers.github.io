@@ -34,6 +34,15 @@ We're a small team of developers who treat code like craft. Focused on quality, 
 
 What we offer	Notre offre
 
+Template-Based Websites	Sites web avec gabarit
+Fast, effective websites using clean, modern templates.	Des sites efficaces et modernes, basés sur des modèles éprouvés.
+
+Software Setup & Support	Mise en place de solutions logicielles
+We help you choose, configure, and implement the right software solutions.	Nous vous aidons à choisir, configurer et mettre en place les bonnes solutions logicielles.
+
+Custom Web & Software Development	Développement web et logiciel sur mesure
+Purpose-built solutions for your business.	Des solutions sur mesure pour votre entreprise.
+
 About us	À propos
 Our services	Nos services
 
@@ -93,3 +102,26 @@ We'd love to hear from you!	Nous avons hâte d'échanger avec vous !
 Contact Information	Informations de contact
 weavers.software@gmail.com	contact@tisserands-du-net.fr
 +359 87 947 3758	+33 7 67 71 55 36
+
+
+######################
+# Page: Legal Notice #
+######################
+Legal Notice	Mentions Légales
+Website Owner	Propriétaire du site
+Bulgaria	Bulgarie
+Contact	Contact
+Email	Courriel
+Phone	Téléphone
+Disclaimer	Déclaration
+This website provides general information. While we aim to keep the information up to date, we make no warranties of any kind about its completeness or accuracy.	Ce site web fournit des informations générales. Bien que nous nous efforcions d'assurer l'exactitude et la mise à jour du contenu, nous ne garantissons pas sa complétude ni sa conformité.
+
+
+########################
+# Page: Privacy Policy #
+########################
+Privacy & Cookies Policy	Politique de Confidentialité
+We do not collect any personal data from visitors to this website.	Nous ne collectons aucune donnée personnelle des visiteurs de ce site web.
+We do not use cookies, analytics, or tracking technologies.	Nous n'utilisons pas de cookies, ni d'outils d'analytics ou de tracking.
+Server logs may record basic technical information (such as IP address, browser type, and time of visit) for security and maintenance purposes. This data is not used to identify users and is not shared.	Les journaux du serveur peuvent enregistrer des informations techniques de base (telles que l'adresse IP, le type de navigateur et l'heure de la visite) à des fins de sécurité et de maintenance. Ces données ne sont pas utilisées pour identifier les utilisateurs et ne sont pas partagées.
+If this changes in the future, this policy will be updated accordingly.	Si cela venait à changer à l'avenir, cette politique sera mise à jour en conséquence.
