@@ -11,9 +11,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
 
     <link rel="stylesheet" href="/resources/css/reset.css">
     <link rel="stylesheet" href="/resources/css/default.css">
@@ -23,16 +21,13 @@
 <body>
     <header>
         <a href="/">
-            <img src="/resources/logo-name.jpg" alt="Software Weavers' Logo">
+            <img src="/resources/tdn-logo-6.png" alt="<?= i18n('Software Weavers\' Logo') ?>">
         </a>
         <nav>
             <?= nav_link('/', 'Home', $filename === 'index' ? '/' : $filepath) ?>
             <?= nav_link('/our-services', 'Services', "/$filepath") ?>
             <?= nav_link('/about-us', 'About', "/$filepath") ?>
             <?= nav_link('/contact-us', 'Contact', "/$filepath") ?>
-
-            <!-- <a href="/quality-charter">Quality Charter</a> -->
-            <!-- <a href="/blog">Blog</a> -->
         </nav>
     </header>
     <main>
@@ -49,7 +44,7 @@
             <div style="background-color: #C7926D">#C7926D</div>
             <div style="background-color: #A99F54">#A99F54</div>
             <div style="background-color: #7B7981">#7B7981</div>
-            </div>
+        </div>
     </main>
     <footer>
         <nav>
@@ -58,8 +53,10 @@
         </nav>
 
         <a href="/">
-            <img src="/resources/logo-name.jpg" alt="Software Weavers' Logo">
+            <img src="/resources/tdn-logo-2.png" alt="<?= i18n('Software Weavers\' Logo') ?>">
         </a>
+
+        <!-- <a href="/" id="logo"><?= i18n('Software Weavers') ?></a> -->
 
         <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/kerismaker" title="kerismaker"> kerismaker </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->
         <!-- <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div> -->

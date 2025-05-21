@@ -11,6 +11,25 @@ Privacy Policy	Politique de Confidentialité
 Cookies Policy	Politique de Cookies
 Sitemap	Plan du Site
 
+###########
+# Img alt #
+###########
+Software Weavers' Logo	Logo des Tisserands du Net
+Nicolas' Picture	Photo de Nicolas
+Amandine's Picture	Photo d'Amandine
+Email icon	Icône de courriel
+Phone icon	Icône de téléphone
+A loom inside a computer screen	Un métier à tisser dans un écran d'ordinateur
+Craftsmans at work in a workshop mixing old and modern tools	Des artisans à l'oeuvre dans un atelier mixant ancien et moderne
+A computer screen	Un écran d'ordinateur
+A handshake	Une poignée de main
+A hand completing a 4-piece jigsaw	Une main complétant un puzzle à 4 pièces
+A customer being advised on website-building software	Un client conseillé dans son choix d'outil de création de site
+Engineers working together in an atelier	Des artisans et ingénieurs travaillent et proposent une solution
+Technicians at work	Des techniciens au travail
+An artisan and a developer working together in an atelier	Un artisan et un développeur travaillant ensemble dans un atelier
+A control room with a controller sitting in a calm and focused atmosphere, in a style mixing steampunk and Ghibli	Un technicien au travail dans une salle de contrôle mélangeant des influences Ghibli et steampunk
+
 
 #########
 # Links #
@@ -64,7 +83,7 @@ We support you in selecting and implementing software solutions tailored to your
 Implementation of software solutions - 2000€	Mise en place de solutions logicielles - 2000€
 We handle the entire setup of your software solutions from A to Z. This includes installation, configuration, hosting, user account creation, security, and training if needed. The goal is simple: let you use your tools quickly without worrying about the technical side. Whether it's a management tool, a collaborative suite, or industry-specific software, we make sure everything works perfectly from the start. A turnkey solution that's reliable and tailored to your business.	Nous prenons en charge l’ensemble de la mise en place de vos solutions logicielles, de A à Z. Cela inclut l’installation, la configuration, l’hébergement, la création des comptes utilisateurs, la sécurisation et, si besoin, la formation. L’objectif est simple : que vous puissiez utiliser vos outils, sans vous soucier de la technique. Que ce soit pour un outil de gestion, une suite collaborative ou un logiciel métier, nous veillons à ce que tout fonctionne parfaitement, dès le départ. Une solution clé en main, fiable et adaptée à votre entreprise.
 
-Custom website or software - On quotation	Site internet ou logiciel personnalisé - Sur devis
+Custom website or software - On quotation	Site internet, plugin, ou logiciel personnalisé - Sur devis
 Need a website or software tailored to your business? We design fully custom solutions, built to match your needs and goals exactly. From design to functionality, every part is made to measure — no imposed templates, no technical limits. Whether it's a showcase site, an online platform, or a business tool, we deliver a unique, reliable, and scalable solution that highlights your company and makes your daily work easier.	Vous avez besoin d’un site internet ou d’un logiciel parfaitement adapté à votre activité ? Nous concevons des solutions entièrement personnalisées, pensées pour répondre précisément à vos besoins et à vos objectifs. Du design à la fonctionnalité, chaque élément peut être développé sur mesure : pas de modèle imposé, pas de limite technique. Que ce soit pour un site vitrine, une plateforme en ligne ou un outil métier, nous créons une solution unique qui bénéficie à votre activité au quotidien.
 
 Maintenance - From 100€/month	Infogérance et maintenance - À partir de 100€/mois
@@ -86,9 +105,9 @@ You want to work with us?	Vous souhaitez travailler avec nous?
 Check out our services:	Découvrez nos services:
 Our Services	Nos services
 
-We take pride in our expertise. Beyond the technical execution of your project, we put real care into our work to deliver high-quality digital products with flawless finishes.	Nous tirons fierté du savoir-faire français. Au-delà de la réalisation technique de votre projet, nous mettons du cœur à l'ouvrage afin de vous offrir des produits digitalisés d'une grande qualité, aux finitions parfaites.
+We share one essential value: understanding. For us, everything starts there. Truly grasping a need, a context, a person — that’s what allows us to build solutions that are meaningful, relevant, and sustainable.	Nous partageons une valeur essentielle : la compréhension. Pour nous, tout part de là. Comprendre en profondeur un besoin, un contexte, une personne — c’est ce qui nous permet de construire des solutions justes, pertinentes, durables.
 
-Just as crafting a fine piece of furniture requires a cabinetmaker's deep technical skill, sharp eye for beauty, and patient precision, developing an application demands accuracy and attention to detail. We are proud artisans of the modern age.	De la même façon que la réalisation d'un beau meuble requiert de l'ébéniste un savoir-faire technique approfondi, un sens aiguisé du beau, et une patience minutieuse, le développement d'une application s'exécute avec précision et sens du détail. Nous sommes de fiers artisans d'aujourd'hui.
+One of us approaches this as a rational obsession: if the solution doesn’t fit, it means something is still unclear — and he won’t stop until he gets it right. The other brings a more intuitive, human dimension, with genuine attentiveness and active kindness that turn every exchange into a space for co-creation. Together, we strike a balance between precision and empathy, between high standards and real connection.	 L’un de nous vit cette quête comme une obsession rationnelle : tant que la réponse n’est pas adaptée, c’est que quelque chose lui échappe, et il ne lâchera pas tant qu’il n’aura pas trouvé le bon angle. L’autre apporte une dimension plus intuitive et humaine, avec une attention sincère à l’autre, une bienveillance active qui fait de chaque échange un terrain de co-construction. Ensemble, nous cultivons un équilibre entre exigence et écoute, entre rigueur et empathie.
 
 I spent several years working in very “corporate” companies. It wasn't the size of the business that bothered me, but the atmosphere that came with it — a lot of façade, role-playing, not much authenticity. That kind of environment gradually distanced me from what made me love this job. Today, I prefer working with people who know their craft, speak plainly, and don't need fifteen meetings to make a decision. Craftspeople, freelancers, small businesses — that's where I belong: with hands-on professionals you can build solid things with, no nonsense.	J'ai bossé plusieurs années dans des boîtes au fonctionnement très “corporate”, souvent américaines, et ce n'est pas tant la taille des entreprises qui me pesait, mais l'ambiance qui allait avec : beaucoup de façade, de jeux de rôle, peu d'authenticité. Ce genre d'environnement m'a peu à peu coupé de ce qui me faisait aimer ce métier. Aujourd'hui, je préfère travailler avec des gens qui savent faire, qui parlent vrai, et qui n'ont pas besoin de quinze réunions pour prendre une décision. Les artisans, les indépendants, les PME — c'est là que je me sens à ma place : avec des pros qui bossent concrètement et avec qui on peut construire des choses solides, sans détour.
 
@@ -103,7 +122,7 @@ We'd love to hear from you!	Nous avons hâte d'échanger avec vous !
 Contact Information	Informations de contact
 weavers.software@gmail.com	contact@tisserands-du-net.fr
 +359 87 947 3758	+33 7 67 71 55 36
-
++359 87 833 1171	+33 6 23 30 91 21
 
 ######################
 # Page: Legal Notice #
