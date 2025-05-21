@@ -22,8 +22,6 @@ section {
     }
 
     article {
-        margin-right: 48px;
-
         h1 {
             margin: 24px 0;
         }
@@ -35,10 +33,6 @@ section {
         img {
             width: 300px;
         }
-    }
-
-    hr {
-        margin-left: 32px;
     }
 
     aside {
