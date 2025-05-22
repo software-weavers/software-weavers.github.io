@@ -18,11 +18,26 @@
     <link rel="stylesheet" href="/resources/css/<?= $filename ?>.css">
 </head>
 
-<body>
+<body
+    onclick="
+        !event.target.closest('nav') &&
+        document.getElementById('menu-button').classList.remove('open')
+    ">
     <header>
-        <a href="/">
-            <img src="/resources/images/tdn-logo-6.png" alt="<?= i18n('Software Weavers\' Logo') ?>">
-        </a>
+        <div>
+            <a href="/">
+                <img src="/resources/images/tdn-logo-6.png" alt="<?= i18n('Software Weavers\' Logo') ?>" class="logo">
+            </a>
+            <a
+                href="#/"
+                id="menu-button"
+                onclick="
+                    event.stopPropagation();
+                    this.classList.toggle('open')
+                ">
+                <img src="/resources/images/menu-buttons.png" alt="<?= i18n('A menu icon') ?>">
+            </a>
+        </div>
         <nav>
             <?= nav_link('/', 'Home', $filename === 'index' ? '/' : $filepath) ?>
             <?= nav_link('/our-services', 'Services', "/$filepath") ?>
@@ -53,7 +68,7 @@
         </nav>
 
         <a href="/">
-            <img src="/resources/images/tdn-logo-2.png" alt="<?= i18n('Software Weavers\' Logo') ?>">
+            <img src="/resources/images/tdn-logo-2.png" alt="<?= i18n('Software Weavers\' Logo') ?>" class="logo">
         </a>
 
         <!-- <a href="/" id="logo"><?= i18n('Software Weavers') ?></a> -->
