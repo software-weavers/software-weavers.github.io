@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/resources/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -5,57 +13,13 @@
     letter-spacing: .3px;
 }
 
-@font-face {
-    font-family: 'Trajan Pro Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Trajan Pro Bold'), url('/resources/fonts/TrajanPro-Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Cormorant Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Cormorant Bold'), url('/resources/fonts/Cormorant/Cormorant-Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Creolia';
-    src: url('/resources/fonts/Creolia/Creolia.eot');
-    src: local('Creolia Bold'), local('Creolia'),
-        url('/resources/fonts/Creolia/Creolia.eot?#iefix') format('embedded-opentype'),
-        url('/resources/fonts/Creolia/Creolia.woff2') format('woff2'),
-        url('/resources/fonts/Creolia/Creolia.woff') format('woff'),
-        url('/resources/fonts/Creolia/Creolia.ttf') format('truetype');
-    font-style: normal;
-}
-
-#logo {
-    font-family: "Creolia";
-
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 18px;
-
-    text-transform: uppercase;
-    color: #4c3622;
-    background: #F5F2E9;
-
-    width: 138px;
-    height: 44px;
-    padding-top: 6px;
-    text-align: center;
-
-    border-radius: 2px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 body {
     background-color: #F5F2E9;
     /* color: #59402A; */
+}
+
+footer .logo {
+    width: 62px;
 }
 
 header, footer {
