@@ -1,0 +1,149 @@
+# Title
+Software Weavers	Tisserands du Net
+At Software Weavers, we specialize in creating thoughtful, handcrafted websites that combine design, functionality, and user experience. We take pride in delivering quality digital solutions, tailored to meet the unique needs of your business.	Les Tisserands du Net vous accompagnent dans la numérisation de votre activité pour gagner en efficacité et en visibilité.
+tdn-logo-long-en.png	tdn-logo-long.png
+
+##########
+# Navbar #
+##########
+Home	Accueil
+About	À propos
+Legal Notice	Mentions Légales
+Privacy Policy	Politique de Confidentialité
+Cookies Policy	Politique de Cookies
+Sitemap	Plan du Site
+
+###########
+# Img alt #
+###########
+Software Weavers' Logo	Logo des Tisserands du Net
+Nicolas' Picture	Photo de Nicolas
+Amandine's Picture	Photo d'Amandine
+Email icon	Icône de courriel
+Phone icon	Icône de téléphone
+A loom inside a computer screen	Un métier à tisser dans un écran d'ordinateur
+Craftsmans at work in a workshop mixing old and modern tools	Des artisans à l'oeuvre dans un atelier mixant ancien et moderne
+A computer screen	Un écran d'ordinateur
+A handshake	Une poignée de main
+A hand completing a 4-piece jigsaw	Une main complétant un puzzle à 4 pièces
+A customer being advised on website-building software	Un client conseillé dans son choix d'outil de création de site
+Engineers working together in an atelier	Des artisans et ingénieurs travaillent et proposent une solution
+Technicians at work	Des techniciens au travail
+An artisan and a developer working together in an atelier	Un artisan et un développeur travaillant ensemble dans un atelier
+A control room with a controller sitting in a calm and focused atmosphere, in a style mixing steampunk and Ghibli	Un technicien au travail dans une salle de contrôle mélangeant des influences Ghibli et steampunk
+
+
+#########
+# Links #
+#########
+/our-services	/nos-services
+/about-us	/a-propos
+/contact-us	/nous-contacter
+/legal/notice	/legal/mentions-legales
+/legal/privacy	/legal/confidentialite
+/legal/cookies	/legal/cookies
+/sitemap	/plan
+
+
+###############
+# Page: Index #
+###############
+We weave software that just works.	Nous fabriquons des logiciels qui fonctionnent, tout simplement.
+Custom software built with craftsmanship.	Des logiciels sur mesure, conçus avec savoir-faire.
+
+Who we are	Qui nous sommes
+We're a small team of developers who treat code like craft. Focused on quality, precision, and long-term maintainability.	Nous sommes une petite équipe de développeurs qui considèrent le code comme un artisanat. Axés sur la qualité, la précision et la pérennité.
+
+What we offer	Notre offre
+
+Template-Based Websites	Sites web avec gabarit
+Fast, effective websites using clean, modern templates.	Des sites efficaces et modernes, basés sur des modèles éprouvés.
+
+Software Setup & Support	Mise en place de solutions logicielles
+We help you choose, configure, and implement the right software solutions.	Nous vous aidons à choisir, configurer et mettre en place les bonnes solutions logicielles.
+
+Custom Web & Software Development	Développement web et logiciel sur mesure
+Purpose-built solutions for your business.	Des solutions sur mesure pour votre entreprise.
+
+About us	À propos
+Our services	Nos services
+
+
+######################
+# Page: Our services #
+######################
+Services	Services
+Solutions tailored to your needs.	Des solutions adaptées à vos besoins.
+Our prices are indicative and may be adjusted based on the nature of your request.	Chaque demande étant unique, nous privilégions l'établissement d'un devis préalablement à toute intervention.
+
+Template-based website	Site web réalisé à l’aide d’un gabarit
+This type of website is based on the use of a pre-designed template, allowing for quick and efficient creation. Platforms like WordPress (with themes such as Astra or Divi), Wix, Squarespace, Webflow, or Shopify (for e-commerce sites) offer a wide range of professional templates suited to various industries. These templates provide a visual and functional structure that can be customised — colours, fonts, images, text — to reflect your brand identity. This approach is ideal for projects that require a fast rollout or have a limited budget, while still ensuring a modern and responsive result.	Ce type de site internet repose sur l’utilisation d’un gabarit préconçu, permettant une création rapide. Des plateformes comme WordPress (avec des thèmes comme Astra ou Divi), Wix, Squarespace, Webflow ou encore Shopify (pour les sites e-commerce) offrent une large gamme de templates professionnels, adaptés à divers secteurs d’activité. Ces gabarits fournissent une structure visuelle et fonctionnelle que l’on peut personnaliser — couleurs, polices, images, textes — pour refléter l’identité de votre marque. Cette approche est idéale pour les projets nécessitant un déploiement rapide ou disposant d’un budget limité, tout en garantissant un rendu moderne et responsive.
+
+Support in implementing software solutions	Accompagnement dans la mise en place de solutions logicielles
+We support you in selecting and implementing software solutions tailored to your business. Whether it's for managing clients, inventory, invoicing, or communication, we help you find tools that are simple, effective, and sustainable. The goal: save you time every day with reliable, well-configured, and easy-to-use solutions. Each project is handled with care and a focus on quality, so that the software truly serves your work — not the other way around.	Nous vous accompagnons dans le choix et la mise en place de solutions logicielles adaptées à votre activité. Que ce soit pour la gestion de vos clients, de vos stocks, de votre facturation ou de votre communication, nous vous aidons à trouver les outils correspondants. L’objectif : vous faire gagner du temps au quotidien avec des solutions bien configurées, et faciles à utiliser. Chaque projet est mené dans une logique d'amélioration de vos processus internes, pour que le logiciel serve vraiment votre métier — pas l’inverse.
+
+Implementation of software solutions	Mise en place de solutions logicielles
+We handle the entire setup of your software solutions from A to Z. This includes installation, configuration, hosting, user account creation, security, and training if needed. The goal is simple: let you use your tools quickly without worrying about the technical side. Whether it's a management tool, a collaborative suite, or industry-specific software, we make sure everything works perfectly from the start. A turnkey solution that's reliable and tailored to your business.	Nous prenons en charge l’ensemble de la mise en place de vos solutions logicielles, de A à Z. Cela inclut l’installation, la configuration, l’hébergement, la création des comptes utilisateurs, la sécurisation et, si besoin, la formation. L’objectif est simple : que vous puissiez utiliser vos outils, sans vous soucier de la technique. Que ce soit pour un outil de gestion, une suite collaborative ou un logiciel métier, nous veillons à ce que tout fonctionne parfaitement, dès le départ. Une solution clé en main, fiable et adaptée à votre entreprise.
+
+Custom website or software	Site internet, plugin, ou logiciel personnalisé
+Need a website or software tailored to your business? We design fully custom solutions, built to match your needs and goals exactly. From design to functionality, every part can be made to measure — no imposed templates, no technical limits. Whether it's a showcase site, an online platform plugin, or a business tool, we deliver a unique, reliable, and scalable solution that highlights your company and makes your daily work easier.	Vous avez besoin d’un site internet ou d’un logiciel parfaitement adapté à votre activité ? Nous concevons des solutions personnalisées, pensées pour répondre précisément à vos besoins et à vos objectifs. Du design à la fonctionnalité, chaque élément peut être développé sur mesure : pas de modèle imposé, pas de limite technique. Que ce soit un site vitrine, un plugin pour votre plateforme en ligne favorite ou un outil métier, nous créons une solution unique qui bénéficie à votre activité au quotidien.
+
+Maintenance	Infogérance et maintenance
+We manage your IT or web environment. This includes monitoring, updates, backups, security, and responsive support when issues arise. You get a system that's always up to date, efficient, and secure — without having to handle it yourself. A real time-saver that lets you focus on your business.	Nous assurons la gestion de votre environnement informatique ou web. Cela comprend la surveillance, les mises à jour, les sauvegardes, la sécurité, ainsi qu’un support réactif en cas de problème. Vous bénéficiez d’un système toujours à jour, performant et sécurisé, sans avoir à vous en occuper. Un vrai gain de temps et de tranquillité pour vous concentrer sur votre métier.
+
+Not sure what you need?	Vous n'êtes pas sûr?
+Let's talk it through. We'll help you figure out the right approach.	Parlons-en. Nous vous aiderons à trouver la bonne approche.
+Get in Touch	Nous contacter
+
+
+##################
+# Page: About us #
+##################
+About us	À propos
+Our values	Nos valeurs
+Development & Technical Consulting	Développement
+Quality Assurance & Customer Relations	Assurance Qualité
+You want to work with us?	Vous souhaitez travailler avec nous?
+Check out our services:	Découvrez nos services:
+Our Services	Nos services
+
+We share one essential value: understanding. For us, everything starts there. Truly grasping a need, a context, a person — that’s what allows us to build solutions that are meaningful, relevant, and sustainable.	Nous partageons une valeur essentielle : la compréhension. Pour nous, tout part de là. Comprendre en profondeur un besoin, un contexte, une personne — c’est ce qui nous permet de construire des solutions justes, pertinentes, durables.
+
+One of us approaches this as a rational obsession: if the solution doesn’t fit, it means something is still unclear — and he won’t stop until he gets it right. The other brings a more intuitive, human dimension, with genuine attentiveness and active kindness that turn every exchange into a space for co-creation. Together, we strike a balance between precision and empathy, between high standards and real connection.	 L’un de nous vit cette quête comme une obsession rationnelle : tant que la réponse n’est pas adaptée, c’est que quelque chose lui échappe, et il ne lâchera pas tant qu’il n’aura pas trouvé le bon angle. L’autre apporte une dimension plus intuitive et humaine, avec une attention sincère à l’autre, une bienveillance active qui fait de chaque échange un terrain de co-construction. Ensemble, nous cultivons un équilibre entre exigence et écoute, entre rigueur et empathie.
+
+I spent several years working in very “corporate” companies. It wasn't the size of the business that bothered me, but the atmosphere that came with it — a lot of façade, role-playing, not much authenticity. That kind of environment gradually distanced me from what made me love this job. Today, I prefer working with people who know their craft, speak plainly, and don't need fifteen meetings to make a decision. Craftspeople, freelancers, small businesses — that's where I belong: with hands-on professionals you can build solid things with, no nonsense.	J'ai bossé plusieurs années dans des boîtes au fonctionnement très “corporate”, souvent américaines, et ce n'est pas tant la taille des entreprises qui me pesait, mais l'ambiance qui allait avec : beaucoup de façade, de jeux de rôle, peu d'authenticité. Ce genre d'environnement m'a peu à peu coupé de ce qui me faisait aimer ce métier. Aujourd'hui, je préfère travailler avec des gens qui savent faire, qui parlent vrai, et qui n'ont pas besoin de quinze réunions pour prendre une décision. Les artisans, les indépendants, les PME — c'est là que je me sens à ma place : avec des pros qui bossent concrètement et avec qui on peut construire des choses solides, sans détour.
+
+I'm the type who notices the small things others miss — what's off or what's lacking — not out of habit, but because it matters to me. Whether it's a line of code or a conversation with a client, I believe the details make the difference. I've nurtured this attention over time, probably fed by my passion for the arts: watercolour, bookmaking, saxophone, theatre… crafts where you can't fake it and every move counts. Today, I bring that same level of care to the quality of our work and our client relationships. So things are done right — and experienced right.	Je suis du genre à remarquer les petits trucs que d'autres ne voient pas, à repérer ce qui cloche ou ce qui manque — pas par manie, mais parce que j'y tiens. Que ce soit dans une ligne de code ou dans un échange avec un client, pour moi, les détails font la différence. Cette attention, je la cultive depuis longtemps, sans doute nourrie par ma passion pour les arts : aquarelle, création de livres, saxophone, théâtre… Des pratiques où on ne peut pas tricher, où chaque geste compte. Aujourd'hui, je mets cette exigence au service de la qualité de nos livrables, et du lien avec nos clients. Pour que les choses soient bien faites, et bien vécues.
+
+
+####################
+# Page: Contact us #
+####################
+Contact us	Contactez-nous
+We'd love to hear from you!	Nous avons hâte d'échanger avec vous !
+Contact Information	Informations de contact
+weavers.software@gmail.com	contact@tisserands-du-net.fr
++359 87 947 3758	+33 7 67 71 55 36
++359 87 833 1171	+33 6 23 30 91 21
+
+######################
+# Page: Legal Notice #
+######################
+Legal Notice	Mentions Légales
+Website Owner	Propriétaire du site
+Bulgaria	Bulgarie
+Contact	Contact
+Email	Courriel
+Phone	Téléphone
+Disclaimer	Déclaration
+This website provides general information. While we aim to keep the information up to date, we make no warranties of any kind about its completeness or accuracy.	Ce site web fournit des informations générales. Bien que nous nous efforcions d'assurer l'exactitude et la mise à jour du contenu, nous ne garantissons pas sa complétude ni sa conformité.
+
+
+########################
+# Page: Privacy Policy #
+########################
+Privacy & Cookies Policy	Politique de Confidentialité
+We do not collect any personal data from visitors to this website.	Nous ne collectons aucune donnée personnelle des visiteurs de ce site web.
+We do not use cookies, analytics, or tracking technologies.	Nous n'utilisons pas de cookies, ni d'outils d'analytics ou de tracking.
+Server logs may record basic technical information (such as IP address, browser type, and time of visit) for security and maintenance purposes. This data is not used to identify users and is not shared.	Les journaux du serveur peuvent enregistrer des informations techniques de base (telles que l'adresse IP, le type de navigateur et l'heure de la visite) à des fins de sécurité et de maintenance. Ces données ne sont pas utilisées pour identifier les utilisateurs et ne sont pas partagées.
+If this changes in the future, this policy will be updated accordingly.	Si cela venait à changer à l'avenir, cette politique sera mise à jour en conséquence.

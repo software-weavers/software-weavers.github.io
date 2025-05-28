@@ -1,9 +1,20 @@
 #!/bin/sh
 
 COMMAND=${1-"help"}
+[ ! -z $1 ] && shift
 
-if ! docker image inspect sw-builder > /dev/null 2>&1; then
-  docker build -t sw-builder .
-fi
+echo '[BUILD]'
+docker build \
+    --tag="sw-builder" \
+    --progress="quiet" \
+    --build-arg HOST_UID=$(id -u) \
+    --build-arg HOST_GID=$(id -g) \
+    .
 
-docker run --network="host" -v $(pwd):/app sw-builder "bin/$COMMAND"
+echo '[RUN]'
+docker run \
+    --network="host" \
+    --volume="$(pwd):/app" \
+    --rm \
+    sw-builder \
+    bin/$COMMAND $@

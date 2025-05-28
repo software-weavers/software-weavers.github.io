@@ -5,30 +5,53 @@ if (!isset($argv[1])) {
     die("Usage: ./bin/compile <page>\n");
 }
 
+require_once __DIR__.'/../config.php';
+
 $page = $argv[1];
 $template = 'default.phtml';
 
+$pagePath = "pages/{$page}";
+
+/**
+ * $filename can be used or overriden in `include $pagePath`
+ */
 [
     'dirname' => $dirname,
     'filename' => $filename,
 ] = pathinfo($page);
 
-$dirPath = "site/$dirname/$filename";
+$filepath = $filename;
 
-if (!is_dir($dirPath) && !mkdir($dirPath, 0777, true)) {
-    die("Failed to create directory $dirPath\n");
+if ($dirname !== '.') {
+    $filepath = "$dirname/$filename";
 }
-
-$pagePath = "pages/{$page}";
 
 ob_start();
 include $pagePath;
 $content = ob_get_clean();
 
+/**
+ * $template can be overriden during `include $pagePath`
+ */
 $templatePath = "templates/{$template}";
 
 ob_start();
 include $templatePath;
 $fullPage = ob_get_clean();
 
-file_put_contents("$dirPath/index.html", $fullPage);
+/**
+ * This allows translating "about" to "a-propos"
+ */
+$dirPath = 'site' . i18n($dirname === '.' ? "/$filename" : "/$dirname/$filename");
+
+if (!is_dir($dirPath) && !mkdir($dirPath, 0777, true)) {
+    die("Failed to create directory $dirPath\n");
+}
+
+$compiledPath = "$dirPath/index.html";
+
+if ($filename === 'index') {
+    $compiledPath = "site/index.html";
+}
+
+file_put_contents($compiledPath, $fullPage);
