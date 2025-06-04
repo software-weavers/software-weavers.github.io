@@ -59,13 +59,17 @@
     </main>
     <footer>
         <nav>
-            <?= nav_link('/legal/notice', 'Legal Notice') ?>
-            <?= nav_link('/legal/privacy', 'Privacy Policy') ?>
+            <a href="<?= i18n('https://www.tisserands-du-net.fr') ?>"><?= i18n('French Version') ?></a>
         </nav>
 
         <a href="/">
             <img loading="lazy" src="/resources/images/tdn-logo-short.png" alt="<?= i18n('Software Weavers\' Logo') ?>" class="logo">
         </a>
+
+        <nav>
+            <?= nav_link('/legal/notice', 'Legal Notice') ?>
+            <?= nav_link('/legal/privacy', 'Privacy Policy') ?>
+        </nav>
 
         <!-- <a href="/" id="logo"><?= i18n('Software Weavers') ?></a> -->
 

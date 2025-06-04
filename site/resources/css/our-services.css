@@ -26,12 +26,12 @@ section:nth-of-type(2) {
 
     div {
         width: 80%;
-        padding: 24px 12px;
+        padding: 24px;
         
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        gap: 80px;
+        gap: 20px;
 
         article {
             display: flex;
@@ -49,7 +49,7 @@ section:nth-of-type(2) {
     
         aside {
             img {
-                width: 400px;
+                max-height: 300px;
             }
         }
 
@@ -103,10 +103,6 @@ section:nth-of-type(2) {
                 align-items: center;
                 
                 order: -1;
-
-                img {
-                    width: 300px;
-                }
             }
         }
     }

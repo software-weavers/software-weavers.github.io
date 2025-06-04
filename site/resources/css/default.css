@@ -34,6 +34,7 @@ header, footer {
     .logo {
         height: 44px;
         border-radius: 2px;
+        box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
     }
 
     nav {
@@ -58,21 +59,26 @@ header, footer {
     }
 }
 
+header {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
 footer {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    & > a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45%, -50%);
+    }
     
     nav {
-        position: absolute;
-        right: 20px;
-        bottom: 20px;
-
         a {
             font-size: 16px;
         }
-    }
-    
-    & > a {
-        margin: 0 auto;
     }
 }
 
@@ -117,6 +123,18 @@ h4 {
     color: #4c3622;
 }
 
+@property --btnGradient1 {
+    syntax: '<color>';
+    initial-value: #9e7559;
+    inherits: false;
+}
+  
+@property --btnGradient2 {
+    syntax: '<color>';
+    initial-value: #59402A;
+    inherits: false;
+}
+
 .button {
     display: block;
     width: fit-content;
@@ -124,16 +142,24 @@ h4 {
     font-size: 24px;
     font-weight: 600;
     padding: 15px 25px;
-    background-color: #59402A;
     color: #F5F2E9;
     border: 1px solid transparent;
+    border-left: none;
+    transform: translateX(1px);
     border-radius: 6px;
 
-    transition: background-color .5s;
+    box-shadow: inset -1px -1px 2px rgba(0,0,0,0.2),
+                5px 5px 5px rgba(0,0,0,0.2);
+
+    background: linear-gradient(135deg, var(--btnGradient1), var(--btnGradient2));
+    transition: --btnGradient1 .5s, --btnGradient2 .5s, border .5s;
+
     &:hover {
+        --btnGradient1: #FFF;
+        --btnGradient2: #F5F2E9;
         color: #59402A;
-        background-color: #F5F2E9;
         border: 1px solid #59402A;
+        transform: translateX(0);
     }
 }
 
@@ -208,6 +234,14 @@ header {
         justify-content: center;
         padding: 16px 0 32px;
 
+        & > a {
+            position: relative;
+            top: unset;
+            left: unset;
+            transform: unset;
+            order: 9;
+        }
+
         nav {
             position: relative;
             right: unset;
@@ -215,6 +249,11 @@ header {
             flex-direction: column;
             gap: 8px;
             margin-bottom: 16px;
+
+            &:last-of-type {
+                order: -1;
+                margin-bottom: 8px;
+            }
         }
     }
 
